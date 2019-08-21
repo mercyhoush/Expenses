@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		97C02261230C4B9E009D0C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C02260230C4B9E009D0C5A /* AppDelegate.swift */; };
-		97C02263230C4B9E009D0C5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C02262230C4B9E009D0C5A /* ViewController.swift */; };
 		97C02266230C4B9E009D0C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C02264230C4B9E009D0C5A /* Main.storyboard */; };
 		97C02268230C4BA0009D0C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C02267230C4BA0009D0C5A /* Assets.xcassets */; };
 		97C0226B230C4BA0009D0C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C02269230C4BA0009D0C5A /* LaunchScreen.storyboard */; };
+		97C02273230CD09A009D0C5A /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C02272230CD09A009D0C5A /* Expense.swift */; };
+		97C02275230CD135009D0C5A /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C02274230CD135009D0C5A /* ExpensesViewController.swift */; };
+		97C02277230CD52D009D0C5A /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C02276230CD52D009D0C5A /* ExpenseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		97C0225D230C4B9E009D0C5A /* Expenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C02260230C4B9E009D0C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97C02262230C4B9E009D0C5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97C02265230C4B9E009D0C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97C02267230C4BA0009D0C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C0226A230C4BA0009D0C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C0226C230C4BA0009D0C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97C02272230CD09A009D0C5A /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		97C02274230CD135009D0C5A /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		97C02276230CD52D009D0C5A /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				97C02260230C4B9E009D0C5A /* AppDelegate.swift */,
-				97C02262230C4B9E009D0C5A /* ViewController.swift */,
 				97C02264230C4B9E009D0C5A /* Main.storyboard */,
 				97C02267230C4BA0009D0C5A /* Assets.xcassets */,
 				97C02269230C4BA0009D0C5A /* LaunchScreen.storyboard */,
 				97C0226C230C4BA0009D0C5A /* Info.plist */,
+				97C02272230CD09A009D0C5A /* Expense.swift */,
+				97C02274230CD135009D0C5A /* ExpensesViewController.swift */,
+				97C02276230CD52D009D0C5A /* ExpenseTableViewCell.swift */,
 			);
 			path = Expenses;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97C02263230C4B9E009D0C5A /* ViewController.swift in Sources */,
+				97C02277230CD52D009D0C5A /* ExpenseTableViewCell.swift in Sources */,
+				97C02273230CD09A009D0C5A /* Expense.swift in Sources */,
 				97C02261230C4B9E009D0C5A /* AppDelegate.swift in Sources */,
+				97C02275230CD135009D0C5A /* ExpensesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
